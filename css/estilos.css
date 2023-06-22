@@ -2,10 +2,38 @@ body{
     color: #FA8072;
     text-align: center;
     font-family: "Arial";
-    font-size: 27px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
+
+#cabecera
+{
+    background: teal;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    color: #ddd;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera 
+{
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#tagline
+{
+    font-weight: normal;
+    font-size: 0.5em;
+}
+
+#container h1
+{
+    font-size: 40px;
+}
+
 #container 
 {
     width: 70%;
@@ -13,10 +41,4 @@ body{
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
-
-}
-
-#container h1
-{
-    font-size: 40px;
 }
